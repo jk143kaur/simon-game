@@ -19,8 +19,8 @@ $(document).on("keypress", function(event) {
 $(":button").click(function(event) {
   arrYou.push(this.className);
   checkSequence();
-  var audio = new Audio("main/"+ this.className +".mp3");
-  audio.play();
+//   var audio = new Audio("main/"+ this.className +".mp3");
+//   audio.play();
   $("body").css("background-color", "black");
   setTimeout(function() {
     $("body").css("background-color", "#00af91")
