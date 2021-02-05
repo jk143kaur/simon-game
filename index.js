@@ -19,7 +19,7 @@ $(document).on("keypress", function(event) {
 $(":button").click(function(event) {
   arrYou.push(this.className);
   checkSequence();
-  var audio = new Audio("sounds/" + this.className + ".mp3");
+  var audio = new Audio(this.className + ".mp3");
   audio.play();
   $("body").css("background-color", "black");
   setTimeout(function() {
