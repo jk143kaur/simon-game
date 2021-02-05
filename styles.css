@@ -1,0 +1,93 @@
+body {
+  text-align: center;
+  background-color: #00af91;
+}
+
+#level-title {
+  font-family: "Lexend Mega";
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+
+h2{
+  font-size: 2rem;
+  color: #FEF2BF;
+  font-family: "Lexend Mega";
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.highlight
+{
+  background-color: "red";
+}
+
+.yellow {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 5px solid white;
+  border-radius: 20%;
+}
+
+.red
+{
+
+    margin: 25px;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    border: 5px solid white;
+    border-radius: 20%;
+
+}
+
+.blue {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 5px solid white;
+  border-radius: 20%;
+}
+
+.green {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 5px solid white;
+  border-radius: 20%;
+}
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: #ec4646;
+}
+
+.green {
+  background-color: #54e346;
+}
+
+.blue {
+  background-color: #19456b;
+}
+
+.yellow {
+  background-color: #ffcc29;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
