@@ -19,7 +19,7 @@ $(document).on("keypress", function(event) {
 $(":button").click(function(event) {
   arrYou.push(this.className);
   checkSequence();
-  var audio = new Audio("sounds/"+ this.className +".mp3");
+  var audio = new Audio("https://github.com/jk143kaur/simon-game/tree/main/sounds/" + this.className);
   audio.play();
   $("body").css("background-color", "black");
   setTimeout(function() {
